@@ -1,7 +1,9 @@
+let finalDate = new Date(prompt('Enter the Date and its time too','Oct 17, 2023 00:00:00'));
+
 let clockH = document.querySelector('.clock__hours');
 let clockM = document.querySelector('.clock__minutes');
 let clockS = document.querySelector('.clock__seconds');
-let finalDate = new Date('Oct 17, 2023 00:00:00');
+//let finalDate = new Date('Oct 17, 2023 00:00:00');
 let countdownDays = document.querySelector('.countdown__days');
 let countdownHours = document.querySelector('.countdown__hours');
 let countdownMinutes = document.querySelector('.countdown__minutes');
